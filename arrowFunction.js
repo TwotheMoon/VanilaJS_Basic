@@ -87,6 +87,7 @@ randomQuiz("love you", printYes, printNo);
 // function calculate(command, a, b)
 // command: add, sub, div, mult, remain
 
+// 함수 리턴 조건 추가
 function calculate(command, a, b) {
     switch (command) {
         case "add": return add(a, b);
