@@ -70,4 +70,3 @@ text = '7' + 5;
 console.log(`value: ${text}, type: ${typeof (text)}`); // string + string = "75"
 text = '8' / '2'
 console.log(`value: ${text}, type: ${typeof (text)}`); // 자동으로 number타입 변환 해서 연산 진행
-
