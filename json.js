@@ -36,7 +36,7 @@ console.clear();
 
 
 // JSON to Object
-
+// JSON 객채로 가져올때 모든 데이터는 string
 json = JSON.stringify(rabbit);
 const obj = JSON.parse(json);
 console.log(obj);
