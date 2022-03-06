@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let testDate = new Date(2022, 1, 7, 15, 41, 0).toLocaleString().replace(/\./g, "");
+        console.log(testDate);
+        let date = new Date().toLocaleString().replace(/\./g, "");
+
+        function getDate() {
+            date = new Date().toLocaleString().replace(/\./g, "");
+            console.log(date);
+            if (date == testDate) {
+                console.log("성공");
+            }
+        }
+        let dateTime = setInterval(getDate, 1000);
+
+    </script>
+</body>
+
+</html>
